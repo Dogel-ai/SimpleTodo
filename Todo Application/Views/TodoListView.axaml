@@ -1,0 +1,16 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 x:Class="Todo_Application.Views.TodoListView">
+	<DockPanel HorizontalAlignment="Center">
+		<Button DockPanel.Dock="Bottom"
+				Width="200"
+				Content="Add an item"
+				HorizontalContentAlignment="Center"/>
+		<StackPanel>
+			<CheckBox Margin="4">Make an app</CheckBox>
+			<CheckBox Margin="4">Buy milk</CheckBox>
+		</StackPanel>
+	</DockPanel>
+</UserControl>
